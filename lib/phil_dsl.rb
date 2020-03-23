@@ -1,4 +1,6 @@
-require "phil_dsl/version"
+# frozen_string_literal: true
+
+require 'phil_dsl/version'
 
 module PhilDsl
   class Error < StandardError; end
