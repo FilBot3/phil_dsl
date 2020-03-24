@@ -27,7 +27,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Run like this:
+
+```bash
+ruby ./examples/01_sample.rb
+```
+
+or without the `require` statement
+
+```bash
+ruby -rphil_dsl ./examples/02_run_without_require.rb
+```
 
 ## Development
 
@@ -44,9 +54,9 @@ This repository will be using [GitFlow](https://www.atlassian.com/git/tutorials/
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/phil_dsl. This project is intended to be a safe, welcoming space
+Bug reports and pull requests are welcome on GitHub at https://github.com/predatorian3/phil_dsl. This project is intended to be a safe, welcoming space
 for collaboration, and contributors are expected to adhere to the
-[code of conduct](https://github.com/[USERNAME]/phil_dsl/blob/master/CODE_OF_CONDUCT.md).
+[code of conduct](https://github.com/predatorian3/phil_dsl/blob/master/CODE_OF_CONDUCT.md).
 
 
 ## License
@@ -58,7 +68,7 @@ The gem is available as open source under the terms of the
 
 Everyone interacting in the PhilDsl project's codebases, issue trackers, chat
 rooms and mailing lists is expected to follow the
-[code of conduct](https://github.com/[USERNAME]/phil_dsl/blob/master/CODE_OF_CONDUCT.md).
+[code of conduct](https://github.com/predatorian3/phil_dsl/blob/master/CODE_OF_CONDUCT.md).
 
 ## References
 
