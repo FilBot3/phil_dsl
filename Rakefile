@@ -10,3 +10,8 @@ Rake::TestTask.new(:test) do |t|
 end
 
 task default: :test
+
+desc 'Run the second example'
+task :run_dsl do
+  sh %(ruby -rphil_dsl ./examples/02_run_without_require.rb)
+end
