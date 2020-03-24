@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['Predatorian3@gmail.com']
 
   spec.summary       = 'A Ruby DSL for Automation.'
-  spec.description   = 'A Ruby DSL to allow for the use of complex automation setups.'
+  spec.description   = IO.read(File.join(File.dirname(__FILE__), 'README.md'))
   spec.homepage      = 'https://github.com/Predatorian3/phil_dsl'
   spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.3.0')
